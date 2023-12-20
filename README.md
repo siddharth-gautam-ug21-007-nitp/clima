@@ -1,16 +1,41 @@
-# clima
+# Clima - Weather App 🌦️
 
-A Weather App
+Clima is a simple and intuitive weather app built with Flutter that provides real-time weather information for any location around the globe.
+
+![Clima App Screenshot](screenshots/clima_screenshot.png)
+
+## Features
+
+- **Current Weather:** Get the current weather conditions for any city.
+- **Location-based:** Automatically detects your location for instant weather updates.
+- **Search Functionality:** Search for weather information by city name.
+
+## Technologies Used
+
+- Flutter: A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.
+- OpenWeatherMap API: Used for fetching real-time weather data.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run the Clima app on your local machine, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
+   git clone https://github.com/your-username/clima-app.git
+2. Navigate to the project directory:
+   cd clima-app
+3. Install dependencies:
+   flutter pub get
+4. Run the app:
+   flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Configuration
+To use the Clima app, you'll need to obtain an API key from OpenWeatherMap. Once you have the API key, add it to the api_key.dart file in the lib directory:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+// lib/api_key.dart
+
+const String openWeatherMapApiKey = 'YOUR_API_KEY_HERE';
+
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests to enhance the app.
+
