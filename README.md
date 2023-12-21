@@ -2,9 +2,9 @@
 
 Clima is a simple and intuitive weather app built with Flutter that provides real-time weather information for any location around the globe.
 
-[Clima App Screenshot-1](clima_screenshot-1.png)
+[Clima App Screenshot-1](https://github.com/siddharth-gautam-ug21-007-nitp/clima/blob/master/Screenshot-1.jpg)
 
-[Clima App Screenshot-2](clima_screenshot-2.png)
+[Clima App Screenshot-2](https://github.com/siddharth-gautam-ug21-007-nitp/clima/blob/master/Screenshot-2.jpg)
 
 ## Features
 
